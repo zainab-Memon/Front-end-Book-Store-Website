@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.bgimage{
+  
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('jessica-ruscello-OQSCtabGkSY-unsplash.jpg');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+}
+
+.topnav {
+  overflow: hidden;
+     
+    margin:auto;
+}
+   
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color:white;
+  font-size: 25px;
+}
+.centered h3{
+  background-color:white;
+}
+
+.topnav a {
+   margin-top: 10px;
+   margin-bottom: 10px ;
+   margin-left: 20px;
+  float: left;
+  color:black;
+  text-align: center;
+  padding: 8px 14px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: rgb(255, 136, 0);
+   transition: 0.6s ease;
+}
+
+.topnav a:hover {
+  background-color: red;
+}
+
+.topnav a.active {
+  background-color: red;
+  color:black;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-right: 16px;
+  margin-top: 10px;
+  font-size: 14px;
+  width: 25%;
+
+  border-radius: 5px;
+  border:0px;
+
+  background-color:red;
+  padding: 10px 20px;
+  color:black;
+  margin-bottom: 10px;
+ 
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color: yellow;
+  color: white;
+  position: absolute;
+  bottom:10px;
+  width:100%;
+}
+footer.ft {
+  height:100px;
+ background-color: rgb(83, 76, 76);
+}
+
+.ft .newsletter {
+width: 40%;
+float:left;
+height: 50px;
+padding:10px 40px;
+
+
+}
+.ft .newsletter h1{
+  color:red;
+}
+
+.ft .subscribe input[type=email] {
+  
+padding:15px 40px;
+margin-top: 25px;
+font-size: 14px;
+width: 25%;
+
+border:0px;
+background-color:white;
+color:black;
+margin-bottom: 10px;
+border-radius: 5px 0px 0px 5px;
+}
+.ft .subscribe input[type=submit]
+{
+padding:15px 40px;
+margin-top: 25px;
+font-size: 14px;
+font-weight: bold;
+border-radius: 0px 5px 5px 0px;
+border:0px;
+background-color:red;
+margin-bottom: 10px;
+}
+
+.ft .subscribe ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: grey;
+  opacity: 1; /* Firefox */
+ 
+}
